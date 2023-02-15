@@ -1,11 +1,13 @@
-import Footer from "./components/Footer/Footer";
+// import Footer from "./components/Footer/Footer";
+import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div>
-     {/* <Navbar /> */}
-     <Footer />
+     <Navbar />
+     <Hero />
+     {/* <Footer /> */}
     </div>
   );
 }
