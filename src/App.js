@@ -1,4 +1,5 @@
 // import Footer from "./components/Footer/Footer";
+import Card from "./components/Card";
 import Contact from "./components/Contact/Contact";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -11,6 +12,7 @@ function App() {
      <Hero />
      <Projects />
      <Contact />
+     <Card />
      {/* <Footer /> */}
     </div>
   );
