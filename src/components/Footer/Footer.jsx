@@ -1,25 +1,72 @@
 import React from "react";
+import {
+  FaDribbbleSquare,
+  FaFacebookSquare,
+  FaGithubSquare,
+  FaTwitterSquare,
+  FaInstagramSquare,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div>
-      <h1> I am from footer</h1>
-      <div className="bg-[#1B4D3E] h-[13rem] flex">
-        <div className="flex-1">
-          <a href="/">Privacy Policy</a>
-          <a href="/">Terms & Conditions</a>
-          <a href="/">Our Achivement</a>
-          <a href="/">Security</a>
-        </div>
-        <div className="flex-1">
-          {" "}
-          <a href="/">All Projects</a>
-          <a href="/"> Get A Touch</a>
-          <a href="/">Contact</a>
-          <a href="/">About</a>{" "}
+    <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 text-gray-300">
+      <div>
+        <h1 className="w-full text-3xl font-bold text-[#00df9a]">
+          Atikur's Portfolio
+        </h1>
+        <p className="py-4">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, odio
+          consectetur. Vero praesentium natus doloremque.
+        </p>
+        <div className="flex justify-between md:w-[75%] my-6 text-yellow-500">
+          <FaFacebookSquare size={30} className="text-blue-500" />
+          <FaDribbbleSquare size={30} className="text-white" />
+          <FaInstagramSquare size={30} className="text-red-500" />
+          <FaGithubSquare size={30} className="text-gray-100" />
+          <FaTwitterSquare size={30} className="text-white" />
         </div>
       </div>
-      <p>All rights reserved by It's owner</p>
+
+      <div className="lg:cols-span-2  flex justify-between mt-6">
+        <div>
+          <ul>
+            <h6 className="font-medium text-gray-400">Solutions</h6>
+            <li className="py-2 text-sm">Analytic</li>
+            <li className="py-2 text-sm">Marketing</li>
+            <li className="py-2 text-sm">Commerce</li>
+            <li className="py-2 text-sm">Insights</li>
+          </ul>
+        </div>
+
+        <div>
+          <ul>
+            <h6 className="font-medium text-gray-400">Support</h6>
+            <li className="py-2 text-sm">Pricing</li>
+            <li className="py-2 text-sm">Docs</li>
+            <li className="py-2 text-sm">Guides</li>
+            <li className="py-2 text-sm">Api Status</li>
+          </ul>
+        </div>
+
+        <div>
+          <ul>
+            <h6 className="font-medium text-gray-400">Comapny</h6>
+            <li className="py-2 text-sm">About</li>
+            <li className="py-2 text-sm">Blog</li>
+            <li className="py-2 text-sm">Conditions</li>
+            <li className="py-2 text-sm">Stay Tune</li>
+          </ul>
+        </div>
+
+        <div>
+          <ul>
+            <h6 className="font-medium text-gray-400">Legal</h6>
+            <li className="py-2 text-sm">Claims</li>
+            <li className="py-2 text-sm">Policy</li>
+            <li className="py-2 text-sm">Terms</li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };
