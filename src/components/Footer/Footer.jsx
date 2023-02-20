@@ -19,11 +19,11 @@ const Footer = () => {
           consectetur. Vero praesentium natus doloremque.
         </p>
         <div className="flex justify-between md:w-[75%] my-6 text-yellow-500">
-          <FaFacebookSquare size={30} className="text-blue-500" />
-          <FaDribbbleSquare size={30} className="text-white" />
-          <FaInstagramSquare size={30} className="text-red-500" />
-          <FaGithubSquare size={30} className="text-gray-100" />
-          <FaTwitterSquare size={30} className="text-white" />
+          <FaFacebookSquare size={50} className="text-blue-500" />
+          <FaDribbbleSquare size={50} className="text-white" />
+          <FaInstagramSquare size={50} className="text-[red]" />
+          <FaGithubSquare size={50} className="text-gray-100" />
+          <FaTwitterSquare size={50} className="text-white" />
         </div>
       </div>
 

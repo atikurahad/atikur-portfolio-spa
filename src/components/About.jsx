@@ -15,13 +15,13 @@ const About = () => {
 
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 items-center justify-center">
           <div>
-            <img className="h-96 w-96 mx-auto" src={DevImg} alt="" />
+            <img className="h-[fit-content] w-96 mx-auto justify-center items-center mb-5" src={DevImg} alt="" />
           </div>
           <div>
             <h1 className="text-center text-2xl mt-2 font-serif font-bold text-[rgb(255,140,0)] sm:mt-2">
               Junior <span> <Typed className="text-white" strings={['ReactJS']} typeSpeed={130} backSpeed={140} loop /></span> Developer
             </h1>
-            <ol className="mt-5 p-2 drop-shadow-xl flex flex-col mx-auto my-auto">
+            <ol className="mt-5 p-2 drop-shadow-xl flex flex-col mx-auto text-center">
               <li className="text-xl font-semibold font-serif text-[#f8b435] ">Good Understanding of Htm5, CSS3, Bootstrap5.</li>
               <li className="text-xl font-semibold font-serif text-[#f8b435]">Good understanding of GIT, Github.</li>
               <li className="text-xl font-semibold font-serif text-[#f8b435]">Good known in ReactJs Hooks, React Router.</li>
